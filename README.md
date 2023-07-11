@@ -13,7 +13,7 @@ Com isso, o estudo desenvolvido teve o objetivo de implementar técnicas de apre
 
 Base: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
 
-##Objetivo
+## Objetivo
 O estudo desenvolvido teve o objetivo de implementar técnicas de aprendizado de máquina, para analisar os dados da Cardiotocografia e classificar a saúde do feto em Saudável, Suspeito ou Patológico.
 
 ## Base De Dados
