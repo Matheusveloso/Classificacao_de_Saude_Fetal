@@ -52,3 +52,18 @@ A base de dados do presente estudo contém 22 atributos, sendo 1 atributo classe
 21)	histogram_tendency - Tendência do histograma
 22)	fetal_health – Classificação Fetal 1-Saudável, 2-Suspeito ou 3-Patológico.
 
+## Metodologia
+
+• Coleta de Dados e Montagem da Base
+    • Importação da base de dados, gerados de exames do Cardiotocografia.
+    • Balanceamento da classes
+    
+• Analise de Dados
+    • Descobrir as melhores features que influenciam para gerar uma melhor classificação
+    • Montagem de gráficos para analisar padrões
+    • Possíveis tratamentos de dados
+    
+• Desenvolvimento dos modelos
+    • Support Vector Machine(SVM) , XGBoost e LGBMClassifier
+    • Separação 75% Base para treino e 25% teste
+
