@@ -54,17 +54,17 @@ A base de dados do presente estudo contém 22 atributos, sendo 1 atributo classe
 
 ## Metodologia
 
-**Coleta de Dados e Montagem da Base**
+**Coleta de Dados e Montagem da Base** <br />  
     • Importação da base de dados, gerados de exames do Cardiotocografia. <br />   
     • Balanceamento da classes    <br />
     
     
-**Analise de Dados**
-    • Descobrir as melhores features que influenciam para gerar uma melhor classificação<br />
-    • Montagem de gráficos para analisar padrões<br />
-    • Possíveis tratamentos de dados<br />
+**Analise de Dados** <br />  
+    • Descobrir as melhores features que influenciam para gerar uma melhor classificação <br />
+    • Montagem de gráficos para analisar padrões <br />
+    • Possíveis tratamentos de dados <br />
     
-**Desenvolvimento dos modelos**
-    • Support Vector Machine(SVM) , XGBoost e LGBMClassifier<br />
-    • Separação 75% Base para treino e 25% teste<br />
+**Desenvolvimento dos modelos** <br />  
+    • Support Vector Machine(SVM) , XGBoost e LGBMClassifier <br />
+    • Separação 75% Base para treino e 25% teste <br />
 
