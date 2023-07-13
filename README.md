@@ -64,14 +64,38 @@ A base de dados do presente estudo contém 22 atributos, sendo 1 atributo classe
 
 ### Softwares utilizados
 
-O estudo realizado foi desenvolvido na plataforma do Google Colab, no qual os experimentos foram utilizados a linguagem de programação Python, na versão 3.10.12.
+O estudo realizado foi desenvolvido na plataforma do Google Colab, no qual os experimentos foram utilizados a linguagem de programação Python, na versão 3.10.12. <br />  
 
-Através do da linguagem Python, foram aplicadas as bibliotecas abaixo:
-Numpy - Utilizada para realizar funções matemáticas.
-Pandas - Realizou a manipulação e análise dos dados.
-Seaborn e Matplotlib - Manipulada para visualização dos dados, desenvolvimento de gráficos e histogramas.
-Imblearn – Biblioteca utilizada para realizar balanceamento da base de dados.
-Scikit-learn - Aplicado para o desenvolvimento dos modelos de classificações.
+Através do da linguagem Python, foram aplicadas as bibliotecas abaixo: <br />  
+Numpy - Utilizada para realizar funções matemáticas. <br />  
+Pandas - Realizou a manipulação e análise dos dados. <br />  
+Seaborn e Matplotlib - Manipulada para visualização dos dados, desenvolvimento de gráficos e histogramas. <br />  
+Imblearn – Biblioteca utilizada para realizar balanceamento da base de dados. <br />  
+Scikit-learn - Aplicado para o desenvolvimento dos modelos de classificações. <br />  
+
+
+### Metricas de Avaliação
+
+Precisão: Mede a proporção de exemplos positivos que foram corretamente classificados como positivos em relação ao total de exemplos classificados como positivos. <br /> 
+Precisão = Verdadeiros Positivos / (Verdadeiros Positivos + Falsos Positivos)
+
+Acurácia: a mede a proporção de exemplos corretamente classificados em relação ao total de exemplos no conjunto de dados.<br /> 
+Acurácia = (Verdadeiros Positivos + Verdadeiros Negativos) / (Total de Exemplos)
+
+Sensibilidade(Recall) = A capacidade do modelo de identificar corretamente os casos positivos.<br /> 
+Recall = Verdadeiros Positivos / (Verdadeiros Positivos + Falsos Negativos)
+
+## Resultados
+
+Analisando a Base de dados, se mostrou desbalanceada, sendo:<br /> 
+Saúdavel: 77.8%<br /> 
+Suspeito: 13.8%<br /> 
+Patologico: 8.2%<br /> 
+
+![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/d5a19b46-12a2-4324-8024-333293f1c5cd)
+
+
+    
 
     
     
