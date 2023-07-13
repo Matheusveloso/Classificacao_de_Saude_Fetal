@@ -1,17 +1,12 @@
 # Classificacao_de_Saude_Fetal
 Projeto de Aprendizado de Máquina na Saúde: Classificação de Saúde Fetal
 
-
 ## Problema
 A mortalidade infantil tem sido um problema contínuo por muitas décadas nos sistemas de saúde ao redor do mundo.
 
 O número total de óbitos fetais no Brasil entre 2015 e 2020, segundo dados do DATASUS, foi de 182.612 casos, sendo que o ano de maior ocorrência foi 2015 com 32.994
 
 Embora tenhamos desenvolvido instrumentos que podem avaliar muitos aspectos de saúde fetal, ler e interpretar dados Cardiotocografia nem sempre é possível em regiões que falta um obstetra especialista.
-
-Com isso, o estudo desenvolvido teve o objetivo de implementar técnicas de aprendizado de máquina, para analisar os dados da Cardiotocografia e classificar a saúde do feto em Saudável, Suspeito ou Patológico.
-
-Base: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
 
 ## Objetivo
 O estudo desenvolvido teve o objetivo de implementar técnicas de aprendizado de máquina, para analisar os dados da Cardiotocografia e classificar a saúde do feto em Saudável, Suspeito ou Patológico.
@@ -56,15 +51,28 @@ A base de dados do presente estudo contém 22 atributos, sendo 1 atributo classe
 
 **Coleta de Dados e Montagem da Base** <br />  
     • Importação da base de dados, gerados de exames do Cardiotocografia. <br />   
-    • Balanceamento da classes    <br />
-    
     
 **Analise de Dados** <br />  
     • Descobrir as melhores features que influenciam para gerar uma melhor classificação <br />
     • Montagem de gráficos para analisar padrões <br />
     • Possíveis tratamentos de dados <br />
     
-**Desenvolvimento dos modelos** <br />  
-    • Support Vector Machine(SVM) , XGBoost e LGBMClassifier <br />
+**Desenvolvimento dos modelos** <br /> 
     • Separação 75% Base para treino e 25% teste <br />
+    • Balanceamento da classes  (Smote)  <br />
+    • KNN, Decision Tree Random Forest, LGBMClassifier e LazyClassifier <br />
+
+### Softwares utilizados
+
+O estudo realizado foi desenvolvido na plataforma do Google Colab, no qual os experimentos foram utilizados a linguagem de programação Python, na versão 3.10.12.
+
+Através do da linguagem Python, foram aplicadas as bibliotecas abaixo:
+Numpy - Utilizada para realizar funções matemáticas.
+Pandas - Realizou a manipulação e análise dos dados.
+Seaborn e Matplotlib - Manipulada para visualização dos dados, desenvolvimento de gráficos e histogramas.
+Imblearn – Biblioteca utilizada para realizar balanceamento da base de dados.
+Scikit-learn - Aplicado para o desenvolvimento dos modelos de classificações.
+
+    
+    
 
