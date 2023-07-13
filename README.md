@@ -1,6 +1,8 @@
 # Classificacao_de_Saude_Fetal
 Projeto de Aprendizado de Máquina na Saúde: Classificação de Saúde Fetal
 
+https://colab.research.google.com/drive/13V3q_N2K2rdZzsE3ap0HB0D7LsX7tEEd#scrollTo=FQ1aMXTWMWTW
+
 ## Problema
 A mortalidade infantil tem sido um problema contínuo por muitas décadas nos sistemas de saúde ao redor do mundo.
 
