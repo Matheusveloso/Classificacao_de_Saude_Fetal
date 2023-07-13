@@ -87,14 +87,44 @@ Recall = Verdadeiros Positivos / (Verdadeiros Positivos + Falsos Negativos)
 
 ## Resultados
 
-Analisando a Base de dados, se mostrou desbalanceada, sendo:<br /> 
+### Analisando a Base de dados, se mostrou desbalanceada, sendo:<br /> 
 Saúdavel: 77.8%<br /> 
 Suspeito: 13.8%<br /> 
 Patologico: 8.2%<br /> 
 
-![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/d5a19b46-12a2-4324-8024-333293f1c5cd)
+![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/4cfa13bf-284f-48f6-9e13-68a3149860dd)
+
+Com isso, foi necessário realizar um balanceamento das classes, na base de treinamento.
+
+### Variaveis selecionadas para o modelo:
+
+Através da matriz de correlação foram selecionadas os atributos com correlação maior que 0.3, sendo elas:<br />
+
+accelerations<br />
+prolongued_decelerations<br />	
+abnormal_short_term_variability<br />	
+percentage_of_time_with_abnormal_long_term_variability<br />	
+histogram_mode<br />	
+histogram_mean<br />	
+histogram_median<br />	
+histogram_variance<br />
+fetal_health<br />
 
 
+### Modelo Mais Competitivo:<br />
+
+Entre os Modelos de classificação utilizados o Random Forest se mostrou mais competitivo, visto que obteve melhores números nas principais metricas de avaliação: Acurácia, Precisão e Sensibilidade. <br />
+
+![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/9cf189d9-7d49-4535-99b5-1bad12e3a76a)
+
+![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/c96daecf-be1d-442a-85d0-dcf4d34eea59)
+
+
+## Conclusão :<br />
+
+Entre os Modelos de classificação utilizados o Random Forest se mostrou mais competitivo, visto que obteve melhores números nas principais metricas de avaliação: Acurácia, Precisão e Sensibilidade.<br />
+
+Visto os resultados, o uso de aprendizado de máquina para classificar a saúde fetal mostrou que é ferramenta eficiente e benéfica para apoiar especialistas em saúde.<br />
     
 
     
