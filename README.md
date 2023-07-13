@@ -113,16 +113,16 @@ fetal_health<br />
 
 ### Modelo Mais Competitivo:<br />
 
-Entre os Modelos de classificação utilizados o Random Forest se mostrou mais competitivo, visto que obteve melhores números nas principais metricas de avaliação: Acurácia, Precisão e Sensibilidade. <br />
+Entre os Modelos de classificação utilizados o LGBMClassifier se mostrou mais competitivo, visto que obteve melhores números nas principais metricas de avaliação: Acurácia, Precisão e Sensibilidade. <br />
 
-![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/9cf189d9-7d49-4535-99b5-1bad12e3a76a)
+![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/5d91423d-18c3-4c36-97ab-abd02ca9af7e)
 
-![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/c96daecf-be1d-442a-85d0-dcf4d34eea59)
+![image](https://github.com/Matheusveloso/Classificacao_de_Saude_Fetal/assets/51542434/a353dc40-af97-4f0a-b4c9-348b63fe351e)
 
 
 ## Conclusão :<br />
 
-Entre os Modelos de classificação utilizados o Random Forest se mostrou mais competitivo, visto que obteve melhores números nas principais metricas de avaliação: Acurácia, Precisão e Sensibilidade.<br />
+Entre os Modelos de classificação utilizados o LGBMClassifier se mostrou mais competitivo, visto que obteve melhores números nas principais metricas de avaliação: Acurácia, Precisão e Sensibilidade.<br />
 
 Visto os resultados, o uso de aprendizado de máquina para classificar a saúde fetal mostrou que é ferramenta eficiente e benéfica para apoiar especialistas em saúde.<br />
     
