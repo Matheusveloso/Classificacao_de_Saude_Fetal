@@ -56,7 +56,6 @@ A base de dados do presente estudo contém 22 atributos, sendo 1 atributo classe
     
 **Analise de Dados** <br />  
     • Descobrir as melhores features que influenciam para gerar uma melhor classificação <br />
-    • Montagem de gráficos para analisar padrões <br />
     • Possíveis tratamentos de dados <br />
     
 **Desenvolvimento dos modelos** <br /> 
@@ -100,7 +99,7 @@ Com isso, foi necessário realizar um balanceamento das classes, na base de trei
 
 ### Variaveis selecionadas para o modelo:
 
-Através da matriz de correlação foram selecionadas os atributos com correlação maior que 0.3, sendo elas:<br />
+Através da matriz de correlação foram selecionadas os atributos com maior correlação, sendo elas:<br />
 
 accelerations<br />
 prolongued_decelerations<br />	
